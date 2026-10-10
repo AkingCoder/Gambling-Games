@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration</title>
+    <meta name="description" content="Registration form">
+</head>
+
+<body bgcolor="lightyellow">
+    <h1>Student Registration</h1>
+    <form action="submit.php" method="post">
+        Name: <input type="text" name="name"><br><br>
+        Password: <input type="password" name="pwd"><br><br>
+        Gender:
+        <input type="radio" name="g" value="M"> Male
+        <input type="radio" name="g" value="F"> Female<br><br>
+        Hobbies:
+        <input type="checkbox" name="h" value="read"> Reading
+        <input type="checkbox" name="h" value="music"> Music<br><br>
+        Course:
+        <select name="course">
+            <option>MCA</option>
+            <option>BCA</option>
+        </select><br><br>
+        Address:<br>
+        <textarea rows="3" cols="30"></textarea><br><br>
+        <input type="submit" value="Register">
+        <input type="reset">
+    </form>
+</body>
+
+</html>
