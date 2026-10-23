@@ -508,7 +508,7 @@ int main(){
     //     printf("Session create error");
     //     return 1;
     // }
-    // printf("Done");
+    printf("Done");
     rangeRushGame(&session);
     srand(time(NULL));
 
