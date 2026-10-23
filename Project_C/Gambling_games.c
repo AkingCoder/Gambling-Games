@@ -509,7 +509,7 @@ int main(){
     //     return 1;
     // }
     // printf("Done");
-    // rangeRushGame();
+    rangeRushGame(&session);
     srand(time(NULL));
 
 
